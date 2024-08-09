@@ -1,0 +1,18 @@
+.toast-success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.toast-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.toast-message {
+  display: flex;
+  align-items: center;
+}

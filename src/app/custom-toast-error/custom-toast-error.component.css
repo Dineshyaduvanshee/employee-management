@@ -1,0 +1,17 @@
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.toast-message {
+  background-color: #dc3545; /* Bootstrap red for error */
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  max-width: 300px;
+  word-wrap: break-word;
+}

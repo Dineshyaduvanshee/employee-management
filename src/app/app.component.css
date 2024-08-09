@@ -1,0 +1,38 @@
+/* styles.css or app.component.css */
+
+/* Example customization */
+.toast-success {
+  background-color: #28a745 !important; /* Green */
+}
+
+.toast-error {
+  background-color: #dc3545 !important; /* Red */
+}
+
+.toast-warning {
+  background-color: #ffc107 !important; /* Yellow */
+}
+
+.toast {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.toast-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.toast-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-exit-active {
+  transform: translateY(100%);
+  opacity: 0;
+}
